@@ -69,4 +69,10 @@ listOne.append(item2);
 item3.textContent = 'Good Times!!!'
 listOne.append(item3);
 
+var footerTag = document.createElement('f1');
+footerTag.setAttribute('id','footer')
+document.body.appendChild(footerTag);
 
+console.dir(footerTag);
+
+var footTag = document.getElementById('footer').innerHTML = 'christopher.beserra@bryanuniversity.edu';

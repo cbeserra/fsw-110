@@ -4,7 +4,8 @@ console.dir(navBar);
 
 var linkOne = document.createElement('A');
 linkOne.setAttribute('href','/html');
-var link1 = document.createTextNode('Home');
+var link1 = document.createTextNode('Home')
+
 linkOne.appendChild(link1);
 
 navBar.appendChild(linkOne);
@@ -69,7 +70,7 @@ listOne.append(item2);
 item3.textContent = 'Good Times!!!'
 listOne.append(item3);
 
-var footerTag = document.createElement('f1');
+var footerTag = document.createElement('f');
 footerTag.setAttribute('id','footer')
 document.body.appendChild(footerTag);
 

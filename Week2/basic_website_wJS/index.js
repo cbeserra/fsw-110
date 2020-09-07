@@ -1,30 +1,26 @@
 var navBar = document.createElement('nav');
-document.body.appendChild(navBar);
-function display(){
-    document.getElementById('navBar').style.wordSpacing = '15px';
-}
-console.dir(navBar);
-
+var linkSpace = document.createTextNode('  ');
 var linkOne = document.createElement('A');
-linkOne.setAttribute('href','/html');
-var link1 = document.createTextNode('  Home  ')
+var link1 = document.createTextNode('Home');
 linkOne.appendChild(link1);
-
+linkOne.href = 'index.html';
 navBar.appendChild(linkOne);
-
+navBar.appendChild(linkSpace);
 var linkTwo = document.createElement('A');
-linkTwo.setAttribute('href','/html');
-var link2 = document.createTextNode('  Links  ')
+var linkSpace2 = document.createTextNode('  ');
+var link2 = document.createTextNode('Links');
 linkTwo.appendChild(link2);
-
+linkTwo.href = 'index.html';
 navBar.appendChild(linkTwo);
-
+navBar.appendChild(linkSpace2);
 var linkThree = document.createElement('A');
-linkThree.setAttribute('href','/html');
-var link3 = document.createTextNode('  About  ');
-linkThree.appendChild(link3);
-
+var link3 = document.createTextNode('About');
+linkThree.appendChild(link3)
+linkThree.href = 'index.html';
 navBar.appendChild(linkThree);
+document.body.append(navBar);
+
+console.dir(navBar);
 
 var headerTag = document.createElement('h1');
 headerTag.setAttribute('id', 'header')

@@ -1,25 +1,27 @@
 var navBar = document.createElement('nav');
 document.body.appendChild(navBar);
+function display(){
+    document.getElementById('navBar').style.wordSpacing = '15px';
+}
 console.dir(navBar);
 
 var linkOne = document.createElement('A');
 linkOne.setAttribute('href','/html');
-var link1 = document.createTextNode('Home')
-
+var link1 = document.createTextNode('  Home  ')
 linkOne.appendChild(link1);
 
 navBar.appendChild(linkOne);
 
 var linkTwo = document.createElement('A');
 linkTwo.setAttribute('href','/html');
-var link2 = document.createTextNode('Links')
+var link2 = document.createTextNode('  Links  ')
 linkTwo.appendChild(link2);
 
 navBar.appendChild(linkTwo);
 
 var linkThree = document.createElement('A');
 linkThree.setAttribute('href','/html');
-var link3 = document.createTextNode('About');
+var link3 = document.createTextNode('  About  ');
 linkThree.appendChild(link3);
 
 navBar.appendChild(linkThree);
@@ -70,10 +72,14 @@ listOne.append(item2);
 item3.textContent = 'Good Times!!!'
 listOne.append(item3);
 
-var footerTag = document.createElement('f');
-footerTag.setAttribute('id','footer')
+var footerTag = document.createElement('footer');
+footerTag.setAttribute('id','f')
 document.body.appendChild(footerTag);
 
 console.dir(footerTag);
 
-var footTag = document.getElementById('footer').innerHTML = 'christopher.beserra@bryanuniversity.edu';
+var footTag = document.getElementById('f').innerHTML = 'christopher.beserra@bryanuniversity.edu';
+
+function newFunction() {
+    navbar - expand; { med; };
+}

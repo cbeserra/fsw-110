@@ -10,6 +10,7 @@ for (var i = 0; i < 10; i++) {
 }
 
 
+//cannot figure out what I am doing wrong.
 
 const arr = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
 

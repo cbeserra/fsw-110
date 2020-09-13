@@ -10,19 +10,12 @@ for (var i = 0; i < 10; i++) {
 }
 
 
-//cannot figure out what I am doing wrong.
-
-const arr = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
-
-const cont = document.getElementById("container");
-const ul = document.createElement("ul");
-
-ul.setAttribute("id", "theList");
-for (i = 0; i <= arr.length - 1; i++) {
-    
-    const li = document.createElement("li");	
-    
-    li.innerHTML = arr[i];	                        
-    ul.appendChild(li);	
+var element = document.createElement("ul");
+    element.textContent = "List of Names"; 
+    element.setAttribute("id", "constNames"); 
+    document.body.append(element); 
+const names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
+for (var i = 0; i < names.length; i++) {
+    var list = document.getElementById("constNames"); 
+    list.innerHTML += "<li>" + names[i] + "</li>" 
 }
-cont.appendChild(ul);		

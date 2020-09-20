@@ -1,0 +1,7 @@
+#box{ 
+    border: thin solid black; 
+	width:150px; 
+	height:150px; 
+	text-align: justify; 
+	background-color: yellow; 
+    }  

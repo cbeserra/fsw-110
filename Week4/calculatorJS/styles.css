@@ -1,13 +1,25 @@
-
-
-div {
-  
-  height: 175px;
-  width: 200px;
-  border: 2px thick blue;
-  font-weight: bold;
-  margin: 30px;
-  padding: 20px;
-  background-color: red;
+body {
+  background-image: -webkit-radial-gradient(white, blue);
+  font-size: x-large;
 }
 
+div {
+   height: 200px;
+  width: 200px;
+  border: 2px thick gray;
+  font-weight: bold;
+  margin: 40px;
+  padding: 40px;
+  }
+
+#addition {
+  background-color:red;
+  }
+
+#subtraction {
+  background-color: gold;
+}
+
+#multiplication {
+  background-color: green;
+}

@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html> 
 <head>
-  <title> Calculator JS</title>
+  <title> 
+    Calculator JS
+  </title>
   <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-  <div id="addition">
-    <form action="addition">
-    <input type="text" id="num1" name="num1" value=""/>
-    <input type="text" id="num2" name="num2" value=""/> 
-    <button type="button">calculate</button>
-    <input type="text" id="ansA" name="answer" value="">
-    </form>
+
+  <div id="addition">Addition
+    <input type="text" id="value1" name="value1" value=""/>
+    <br>
+    <input type="text" id="value2" name="value2" value=""/> 
+    <br>
+    <input type="button" value="add +" name="submit"
+    onclick="addNum()"><br>
+      Answer : <input type="text" id="answerAdd"
+      name="answer" value ="">
   </div>
 
-  <div id="subtraction">
-    <form action="subtraction">
-      <input type="text" id="num1" name="num1" value=""/>
-      <input type="text" id="num2" name="num2" value=""/>
-      <button type="button">sub -</button>
-      <input type="text" id="result">
-    </form>
+  <div id="subtraction">Subtraction
+      <input type="text" id="value3" name="value3" value=""/>
+      <br>
+      <input type="text" id="value4" name="value4" value=""/>
+      <br>
+      <input type="button" value="subtract -" name="submit"
+      onclick="subNum()"><br>
+        Answer: <input type="text" id="answerSub"
+        name="answer" value="">
   </div>
 
-  <div id="multiplication">
-    <form action="multiplication">
-      <input type="text" id="num1" name="num1" value=""/>
-      <input type="text" id="num2" name="num2" value=""/>
-      <button type="button">mul *</button>
-      <input type="text" id="result">
-    </form>
+  <div id="multiplication"> Multiplication
+      <input type="text" id="value5" name="value5" value=""/>
+      <br>
+      <input type="text" id="value6" name="value6" value=""/>
+      <br>
+      <input type="button" value="multiply *" name="submit"
+      onclick="mulNum()"><br>
+       Answer:<input type="text" id="answerMul"
+       name="answer" value="">
   </div>
 
   <script src="script.js"></script>

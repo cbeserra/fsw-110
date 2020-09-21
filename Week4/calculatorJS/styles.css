@@ -1,0 +1,13 @@
+
+
+div {
+  
+  height: 175px;
+  width: 200px;
+  border: 2px thick blue;
+  font-weight: bold;
+  margin: 30px;
+  padding: 20px;
+  background-color: red;
+}
+
